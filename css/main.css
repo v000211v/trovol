@@ -266,11 +266,11 @@ header {
 }
 
 .banner_01 {
-  background: url(../images/slide_02.jpg) no-repeat center / cover;
+  background: url(../images/parallax01.png) no-repeat center / cover;
 }
 
 .banner_02 {
-  background: url(../images/slide_03.jpg) no-repeat center / cover;
+  background: url(../images/parallax02.png) no-repeat center / cover;
 }
 
 /* 푸터 */

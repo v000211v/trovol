@@ -89,7 +89,7 @@
           <h4>Together</h4>
           <div class="sun"><i class="xi-brightness"></i></div>
           <p>
-            많은 이들과 함께하는 유럽여행,<br />
+            많은 이들과 함께하는 세계여행,<br />
             즐겁지 않을까요? 함께 가요.
           </p>
           <a href="#" class="btn">go on a trip</a>
@@ -168,7 +168,8 @@
       $('.slide').slick({
         arrow: false,
         fade: true,
-        autoplay: true
+        autoplay: true,
+        autoplaySpeed: 5000
       })
 
       // 메뉴
@@ -187,8 +188,8 @@
       })
 
       // 페러렉스
-      $('.banner_01').parallax({ imageSrc: './images/slide_02.jpg' })
-      $('.banner_02').parallax({ imageSrc: './images/slide_03.jpg' })
+      $('.banner_01').parallax({ imageSrc: './images/parallax01.png' })
+      $('.banner_02').parallax({ imageSrc: './images/parallax02.png' })
 
       // 스크롤애니메이션
       ScrollReveal().reveal('.left_ani', {
